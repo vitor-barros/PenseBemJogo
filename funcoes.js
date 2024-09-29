@@ -8,7 +8,7 @@ var gabarito024 = new Array('B', 'A', 'D', 'B', 'B', 'D', 'C', 'C', 'C', 'B', 'A
 var gabarito025 = new Array('C', 'C', 'D', 'D', 'A', 'A', 'C', 'D', 'B', 'B', 'D', 'D', 'B', 'B', 'D', 'D', 'C', 'B', 'B', 'B', 'D', 'A', 'B', 'D', 'D', 'D', 'C', 'D', 'C', 'B');
 
 function iniciar() {
-	programa = window.prompt("Digite o número do programa:", "");
+	programa = window.prompt("Digite o número do programa: ", "");
 
 	if (programa == "021")
 		gabarito = gabarito021;
