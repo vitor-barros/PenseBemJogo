@@ -1,27 +1,27 @@
 var num, programa, tentativa, pontos;
 var gabarito = new Array(30);
 
-var gabarito021 = new Array('B', 'A', 'A', 'D', 'C', 'B', 'D', 'A', 'A', 'D', 'C', 'B', 'B', 'C', 'D', 'D', 'D', 'D', 'B', 'D', 'A', 'B', 'A', 'A', 'D', 'A', 'C', 'A', 'C', 'C');
-var gabarito022 = new Array('B', 'D', 'A', 'A', 'A', 'B', 'D', 'A', 'C', 'A', 'C', 'C', 'B', 'D', 'D', 'B', 'C', 'D', 'C', 'D', 'D', 'D', 'A', 'C', 'A', 'A', 'B', 'C', 'A', 'A');
-var gabarito023 = new Array('B', 'A', 'D', 'B', 'B', 'B', 'C', 'D', 'C', 'D', 'D', 'D', 'A', 'C', 'A', 'B', 'A', 'D', 'B', 'A', 'D', 'B', 'B', 'D', 'D', 'C', 'B', 'D', 'B', 'C');
-var gabarito024 = new Array('B', 'A', 'D', 'B', 'B', 'D', 'C', 'C', 'C', 'B', 'A', 'D', 'B', 'A', 'D', 'B', 'D', 'A', 'B', 'B', 'D', 'A', 'B', 'D', 'A', 'B', 'C', 'C', 'D', 'D');
-var gabarito025 = new Array('C', 'C', 'D', 'D', 'A', 'A', 'C', 'D', 'B', 'B', 'D', 'D', 'B', 'B', 'D', 'D', 'C', 'B', 'B', 'B', 'D', 'A', 'B', 'D', 'D', 'D', 'C', 'D', 'C', 'B');
+var gabarito041 = new Array('C', 'D', 'C', 'B', 'C', 'D', 'A', 'D', 'C', 'B', 'A', 'C', 'D', 'C', 'B', 'D', 'B', 'D', 'D', 'B', 'A', 'B', 'D', 'A', 'C', 'A', 'C', 'C', 'B', 'D');
+var gabarito042 = new Array('A', 'B', 'A', 'B', 'D', 'C', 'A', 'C', 'C', 'B', 'D', 'D', 'D', 'B', 'D', 'C', 'D', 'D', 'C', 'A', 'C', 'A', 'B', 'B', 'C', 'A', 'A', 'B', 'A', 'A');
+var gabarito043 = new Array('B', 'A', 'D', 'B', 'B', 'B', 'C', 'D', 'C', 'D', 'D', 'D', 'A', 'C', 'A', 'B', 'A', 'D', 'B', 'A', 'D', 'B', 'B', 'D', 'D', 'C', 'B', 'D', 'B', 'C');
+var gabarito044 = new Array('B', 'A', 'D', 'B', 'B', 'D', 'C', 'C', 'C', 'B', 'A', 'D', 'B', 'A', 'D', 'B', 'D', 'A', 'B', 'B', 'D', 'A', 'B', 'D', 'A', 'B', 'C', 'C', 'D', 'D');
+var gabarito045 = new Array('C', 'C', 'D', 'D', 'A', 'A', 'C', 'D', 'B', 'B', 'D', 'D', 'B', 'B', 'D', 'D', 'C', 'B', 'B', 'B', 'D', 'A', 'B', 'D', 'D', 'D', 'C', 'D', 'C', 'B');
 
 function iniciar() {
 	programa = window.prompt("Digite o número do programa: ", "");
 
-	if (programa == "021")
-		gabarito = gabarito021;
-	else if (programa == "022")
-		gabarito = gabarito022;
-	else if (programa == "023")
-		gabarito = gabarito023;
-	else if (programa == "024")
-		gabarito = gabarito024;
-	else if (programa == "025")
-		gabarito = gabarito025;
+	if (programa == "041")
+		gabarito = gabarito041;
+	else if (programa == "042")
+		gabarito = gabarito042;
+	else if (programa == "043")
+		gabarito = gabarito043;
+	else if (programa == "044")
+		gabarito = gabarito044;
+	else if (programa == "045")
+		gabarito = gabarito045;
 	else {
-		window.alert("Número de Programa Inválido!!!\nDigite entre 021 e 025!!!");
+		window.alert("Número de Programa Inválido!!!\nDigite entre 041 e 045!!!");
 		iniciar();
 	}
 
