@@ -3,9 +3,9 @@ var gabarito = new Array(30);
 
 var gabarito041 = new Array('C', 'D', 'C', 'B', 'C', 'D', 'A', 'D', 'C', 'B', 'A', 'C', 'D', 'C', 'B', 'D', 'B', 'D', 'D', 'B', 'A', 'B', 'D', 'A', 'C', 'A', 'C', 'C', 'B', 'D');
 var gabarito042 = new Array('A', 'B', 'A', 'B', 'D', 'C', 'A', 'C', 'C', 'B', 'D', 'D', 'D', 'B', 'D', 'C', 'D', 'D', 'C', 'A', 'C', 'A', 'B', 'B', 'C', 'A', 'A', 'B', 'A', 'A');
-var gabarito043 = new Array('B', 'A', 'D', 'B', 'B', 'B', 'C', 'D', 'C', 'D', 'D', 'D', 'A', 'C', 'A', 'B', 'A', 'D', 'B', 'A', 'D', 'B', 'B', 'D', 'D', 'C', 'B', 'D', 'B', 'C');
-var gabarito044 = new Array('B', 'A', 'D', 'B', 'B', 'D', 'C', 'C', 'C', 'B', 'A', 'D', 'B', 'A', 'D', 'B', 'D', 'A', 'B', 'B', 'D', 'A', 'B', 'D', 'A', 'B', 'C', 'C', 'D', 'D');
-var gabarito045 = new Array('C', 'C', 'D', 'D', 'A', 'A', 'C', 'D', 'B', 'B', 'D', 'D', 'B', 'B', 'D', 'D', 'C', 'B', 'B', 'B', 'D', 'A', 'B', 'D', 'D', 'D', 'C', 'D', 'C', 'B');
+var gabarito043 = new Array('D', 'B', 'B', 'B', 'C', 'D', 'C', 'D', 'D', 'D', 'A', 'C', 'A', 'A','B','D','B','A','A','B','B','D','D','C','B','D','B','D','B','A');
+var gabarito044 = new Array('D','B','B','D','B','C','C','B','A','D','B','A','D','B','B','B','B','B','D','A','B','B','A','B','C','C','A','D','C','C');
+var gabarito045 = new Array('D', 'D', 'A', 'A', 'C', 'D', 'B', 'B', 'D', 'D', 'B', 'B', 'D', 'A', 'B', 'B', 'B', 'B', 'D', 'A', 'B', 'D', 'D', 'D', 'C', 'D', 'C', 'B', 'B', 'B');
 
 function iniciar() {
 	programa = window.prompt("Digite o número do programa: ", "");
